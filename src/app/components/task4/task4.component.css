@@ -1,0 +1,17 @@
+h2{
+    font-size: 33px;
+    margin: 0;
+}
+h2:hover{
+    background-color: yellow;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+#myDiv{
+    padding: 5px;
+    margin: auto;
+    width: 50%;
+    background-color: lightblue;
+}

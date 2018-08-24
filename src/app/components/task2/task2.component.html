@@ -1,0 +1,17 @@
+<br>
+<h2><mat-icon>assignment</mat-icon> Task 2 - Countries and Cities <mat-icon>assignment</mat-icon></h2>
+<br><br>
+<div *ngFor="let a of allCountries; let i=index" class="align-to-top">
+    <table border="1">
+        <tr id="first">
+            <!-- allCountries[i] = current country for the table header: -->
+            <th *ngFor="let b of allCountries | filter : allCountries[i]">{{b}}</th>
+        </tr>
+        <!-- allCountries[i] = current country for its cities (for each customer): -->
+        <tr *ngFor="let c of customers | filter2 : allCountries[i]">
+            <td>
+                {{c.City}}
+            </td>
+        </tr>
+    </table>
+</div>

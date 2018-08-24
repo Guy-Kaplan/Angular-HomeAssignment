@@ -1,0 +1,37 @@
+h2{
+    font-size: 33px;
+    margin: 0;
+}
+h2:hover{
+    background-color: yellow;
+}
+table{
+    margin: 30px auto;
+    font-size: 20px;
+}
+#first{
+    background-color: lightgray;
+}
+#first:hover{
+    background-color: red;
+}
+tr:nth-child(even){
+    background-color: turquoise;
+}
+tr:nth-child(odd){
+    background-color: pink;
+}
+tr:hover{
+    background-color: yellow;
+}
+div{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.align-to-top {
+    display: table-cell;
+    vertical-align: left;
+}
+

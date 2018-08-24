@@ -1,0 +1,27 @@
+<br>
+<h2><mat-icon>assignment</mat-icon> Task 1 - Display the Tasks <mat-icon>assignment</mat-icon></h2>
+<br>
+<!-- <div *ngFor="let p of pics | filter : top"> -->
+<div *ngFor="let t of tasks | filter3: taskNum">
+    <h3 class="underline">Task {{t.taskNumber}}</h3>
+    <h3>{{t.taskName}}</h3>
+    <h3>{{t.taskType}}</h3>
+    <h3>{{t.description}}</h3>
+</div>
+<br><br>
+<div id="showTop">Task Number:<br>{{taskNum}}</div>
+<div id="rangeDiv">
+    <button (click)="toMin()" title="Task 1">&larr;</button>
+    <button (click)="loadPrev()" title="Previous Task">&darr;</button>
+    <button (click)="toMid()" title="Task 3">&harr;</button>
+    <button (click)="loadNext()" title="Next Task">&uarr;</button>
+    <button (click)="toMax()" title="Task 5">&rarr;</button>
+    <br>
+    <span>1 </span>
+    <input type="range" min="1" max="5" step="1" [(ngModel)]="taskNum">
+    <span> 5</span>
+</div>
+<br>
+<button id="loadPrev" mat-button (click)="loadPrev()"><mat-icon>arrow_back</mat-icon> Previous</button>
+<button id="loadNext" mat-button (click)="loadNext()">Next <mat-icon>arrow_forward</mat-icon></button>
+<br>

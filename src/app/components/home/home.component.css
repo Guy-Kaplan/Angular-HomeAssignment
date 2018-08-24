@@ -1,0 +1,12 @@
+h2{
+    font-size: 33px;
+    margin: 0;
+}
+h2:hover{
+    background-color: lightblue;
+}
+img{
+    width: 800px;
+    margin: 0;
+    padding: 0;
+}

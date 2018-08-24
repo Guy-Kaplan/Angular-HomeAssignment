@@ -1,0 +1,76 @@
+h2{
+    font-size: 33px;
+    margin: 0;
+}
+h2:hover{
+    background-color: yellow;
+}
+div{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 15%;
+    background-color: white;
+}
+div:hover{
+    background-color: red;
+    color: white;
+}
+span{
+    font-size: larger;
+}
+#loadNext{
+    width: 300px;
+    height: 150px;
+    font-size: x-large;
+    position: fixed;
+    bottom: 60px;
+    left: 380px;
+}
+#loadPrev{
+    width: 300px;
+    height: 150px;
+    font-size: x-large;
+    position: fixed;
+    bottom: 60px;
+    left: 20px;
+}
+#showTop{
+    display: inline-block;
+    position: fixed;
+    top: 28px;
+    left: 10px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 15px;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+#showTop:hover, #rangeDiv:hover{
+    background-color: blue;
+    color: white;
+}
+#showTop::selection, #rangeDiv::selection, span::selection{
+    background-color: yellow;
+}
+#rangeDiv{
+    display: inline-block;
+    position: fixed;
+    top: 28px;
+    left: 150px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 15px;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+.underline{
+    text-decoration: underline;
+}

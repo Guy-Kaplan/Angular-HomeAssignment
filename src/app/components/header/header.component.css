@@ -1,0 +1,21 @@
+h1{
+    color: blue;
+    position: relative;
+    margin: 0;
+    font-size: 40px;
+}
+h1:hover{
+    color: white;
+    background-color: red;
+}
+img{
+    position: absolute; /*fixed*/
+    bottom: 60px;
+    right: 20px;
+}
+#logo{
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    width: 50px;
+}
